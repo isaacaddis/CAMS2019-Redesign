@@ -1,2 +1,7 @@
-
-  $(".button-collapse").sideNav();
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+      $(".button-collapse").sideNav();
+      $('.slider').height("800px");
+    });
+        
+ 
