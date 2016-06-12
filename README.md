@@ -1,2 +1,5 @@
-# CAMS2019-Redesign
-Redesign for the class of 2019 webpage at CAMS High School
+#Website Redesign for the CAMS Class of 2019!
+
+##Credits
+
+Built upon the MaterializeCSS Framework
