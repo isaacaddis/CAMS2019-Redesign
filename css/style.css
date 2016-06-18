@@ -6,4 +6,20 @@
 }
 i.icon-blue{
 	color:blue;
+<<<<<<< HEAD
+}
+a{
+	color:black;
+}
+#clubs-preview{
+	height:50vh;
+}
+#img-box{
+	height:25vh;
+	background-image:url(Graphics/classpicture.jpg);
+}
+#text-box{
+	height:300px;
+=======
+>>>>>>> origin/master
 }
