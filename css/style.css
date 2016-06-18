@@ -20,6 +20,16 @@ a{
 }
 #text-box{
 	height:300px;
-=======
->>>>>>> origin/master
+}
+.portfolio .portfolio-holder
+{
+    clear: both;
+    text-align: center;
+}
+
+.portfolio img
+{
+    width: 33%;
+    display: inline-block;
+    float: left;
 }
