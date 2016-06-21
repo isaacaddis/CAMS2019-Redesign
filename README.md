@@ -6,4 +6,4 @@ After the kinda bad website I made a couple months ago, I used some new web desi
 
 Uses [Material Design standards](https://material.google.com/ "Docs")
 
-Built upon the MaterializeCSS Framework
+Built upon the [MaterializeCSS Framework](http://materializecss.com/ "Docs")
