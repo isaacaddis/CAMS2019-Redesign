@@ -7,7 +7,7 @@
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="The CAMS Class of 2019, the incoming sophmores, are capable of just more than coming to school. Find out more. ">
     <title>Schedule: California Academy of Mathematics and Science</title>
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/materialize.min.css">
     <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -20,24 +20,109 @@
     <!-- Dropdown Structure -->
     <div class="navbar-fixed">
        <ul id="dropdown1" class="dropdown-content">
-          <li><a class = "black-text"href="clubs/index.html">Clubs</a></li>
-          <li><a class = "black-text"href="#">Events</a></li>
+          <li><a class = "black-text"href=".../clubs/index.html">Clubs</a></li>
+          <li><a class = "black-text"href="../events/index.html">Events</a></li>
           <li class="divider"></li>
-          <li><a class = "black-text"href="#!\">Scheduling</a></li>
-          <li><a class = "black-text"href="testimonials/index.html">Testimonials</a></li>
+          <li><a class = "black-text"href="">Scheduling</a></li>
+          <li><a class = "black-text"href="../testimonials/index.html">Testimonials</a></li>
        </ul>
        <nav class = "white">
           <div class="nav-wrapper">
              <a href="#!" class="blue-text brand-logo center">2019</a>
              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
              <ul class="right hide-on-med-and-down">
-                <li><a class = "black-text active" href="">Home</a></li>
-                <li><a class = "black-text" href="contact/index.html">Contact</a></li>
+                <li><a class = "black-text active" href="../index.html">Home</a></li>
+                <li><a class = "black-text" href="../contact/index.html">Contact</a></li>
                 <!-- Dropdown Trigger -->
                 <li><a class="black-text dropdown-button" href="#!" data-activates="dropdown1">Discover<i class="material-icons right">arrow_drop_down</i></a></li>
              </ul>
           </div>
        </nav>
     </div>
+    <!-- Tabs -->
+  	<div class="row">
+  		<div class="col s12">
+  			<ul class="tabs blue-text z-depth-1">
+  				<li class="tab col s6"><a class ="blue-text" href="#odd">Odd Days</a></li>
+  				<li class = "tab col s6"><a class = "blue-text" href="#even">Even Days</a></li>
+  			</ul>
+  		</div>
+  	</div>
+  	<!-- Times -->
+  	<div class="container" id = "times">
+  		<div class="row">
+  			<div class="container" id = "odd">
+  			 <h3 class = "light center">Regular Odd Period Schedule</h3>
+  			 <table class = "striped">
+  			 	<!-- P1 -->
+  			 	<tr>
+  			 		<td>8:30-10:05</td>
+  			 		<td>Period 1</td>
+  			 		<td>95 minutes</td>
+  			 	</tr>
+  			 	<!-- P3 -->
+  			 	<tr>
+  			 		<td>10:05-11:45</td>
+  			 		<td>Period 3</td>
+  			 		<td>95 minutes</td>
+  			 	</tr>
+  			 	<!-- Lunch -->
+  			 	<tr>
+  			 		<td>11:45-12:25</td>
+  			 		<td>Lunch</td>
+  			 		<td>95 minutes</td>
+  			 	</tr>
+  			 	<!-- P5 -->
+  			 	<tr>
+  			 		<td>12:30-2:05</td>
+  			 		<td>Period 5</td>
+  			 		<td>95 minutes</td>
+  			 	</tr>
+  			 	<tr>
+  			 		<td>2:10-3:45</td>
+  			 		<td>Period 7</td>
+  			 		<td>95 minutes</td>
+  			 	</tr>
+  			 </table>
+  			</div>
+  			 <!-- Even days -->
+  			 <div class="container" id = "even">
+  			 	<h3 class = "light center">Regular Even Day Schedule</h3>
+  				 <table class = "striped">
+  				 	<!-- P2 -->
+  				 	<tr>
+  				 		<td>8:30-10>05</td>
+  				 		<td>Period 1</td>
+  				 		<td>95 minutes</td>
+  				 	</tr>
+  				 	<!-- P4 -->
+  				 	<tr>
+  				 		<td>10:05-11:45</td>
+  				 		<td>Period 4</td>
+  				 		<td>95 minutes</td>
+  				 	</tr>
+  				 	<!-- Lunch -->
+  				 	<tr>
+  				 		<td>11:45-12:25</td>
+  				 		<td>Lunch</td>
+  				 		<td>95 minutes</td>
+  				 	</tr>
+  				 	<!-- P6 -->
+  				 	<tr>
+  				 		<td>12:30-2:05</td>
+  				 		<td>Period 6</td>
+  				 		<td>95 minutes</td>
+  				 	</tr>
+  				 	<!-- P8 -->
+  				 	<tr>
+  				 		<td>2:10-3:45</td>
+  				 		<td>Period 8</td>
+  				 		<td>95 minutes</td>
+  				 	</tr>
+  				 </table>
+  			</div>
+        <script type="text/javascript" src  = "../js/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src = "../js/materialize.min.js"></script>
+        <script type="text/javascript" src = "../js/custom.js"></script>
   </body>
 </html>
