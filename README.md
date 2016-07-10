@@ -1,6 +1,6 @@
 #Website Redesign for the CAMS Class of 2019!
 
-Visit the page [the page!](http://www.cams2019.tk/)
+Visit [the page!](http://www.cams2019.tk/)
 
 ![Homepage Screenshot](https://s31.postimg.org/q2ghz6mor/Screenshot_1.png)
 
